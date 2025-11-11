@@ -54,7 +54,7 @@ mvn clean install
 java 8 \
 downgrade tika version to 1.19 in build.gradle under load-service/loa-document-parser-service/src
 ```bash
-gradle build
+./gradlew build -x pmdMain -x pmdTest
 ```
 
 ###  PlmCodeTemplate
