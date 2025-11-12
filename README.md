@@ -106,3 +106,6 @@ mvn clean install
 
 ### jmeter
 java 11
+```bash
+./gradlew build -PchecksumIgnore
+```
